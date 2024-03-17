@@ -13,7 +13,7 @@ import PlacePage from "./pages/PlacePage";
 import BookingPage from "./pages/BookingPage";
 import BookingsPage from "./pages/BookingsPage";
 
-axios.defaults.baseURL = 'https://airbnbackend1.onrender.com';
+axios.defaults.baseURL = 'http://localhost:5173';
 
 axios.defaults.withCredentials = true;
 
